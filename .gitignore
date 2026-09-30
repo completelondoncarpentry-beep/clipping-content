@@ -1,0 +1,35 @@
+# Private campaign material and generated output
+outputs/
+work/
+campaign_work/
+audit_frames/
+tmp/
+.vendor/
+
+# Source and exported media
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mp3
+*.wav
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*passwords*
+
+# Editor and Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db
